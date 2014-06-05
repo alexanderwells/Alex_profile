@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Alexander Wells</title>
+  <link rel="stylesheet"  href="css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Lobster|Indie+Flower|Calligraffitti|Satisfy|Miss+Fajardose|Tangerine:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <header class="main-header row">
+      <a="index.html" id="logo">
+      <h1>Alexander Wells.</h1>
+      <h2>Online Profile.</h2>
+    </a>
+    <section class="box">
+      <nav class="links">
+        <ul class="nvabox">
+          <li><a href="Profile.html">Profile</a></li>
+          <li><a href="Information.html">Information</a></li>
+          <li><a href="Images.html" class="selected">Images</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <p>
+          This is the home page for Alexander Wells.  Please feel free to brouse the sections by clicking the links atop the page and visit my Facebook, Linkedin, and Github accounts by clicking the logo at the bottom of the page.
+        </p>
+      </nav>
+    </section>
+  </header>
+  <div class="wrapper row">
+    
+  
+   <div class="about">
+    
+  </div>
+</div>        
+<footer class="row">
+  <a href="http://facebook.com/alex.wells.35"><img src="images/facebook-logo-black.jpg" width="50" height="50" alt="Facebook Logo" class="social-icon"></a>
+  <a href="http://github.com/Alexanderwells"><img src="images/github-10cb2bef1e35d25a5dbe2a61fb080f62.png" width="50" height="50" alt="Github Logo" class="social-icon"></a>
+  <a href="http://www.linkedin.com/pub/alexander-wells/56/422/6/"><img src="images/linkedin.jpeg" width="50" height="50" alt="Github Logo" class="social-icon"></a>
+  <address>
+    Alex Wells<br>
+    3306 Renwood Blvd, Apt 301
+    Louisville, KY 40214
+  </address>
+  <p>&copy; 2014 Alex Wells.  <p>"Real knowledge is to know the extent of one's ignorance."
+</p> - Confucius.</p>
+</footer>
+</div>
+</body> 
+</html>
+

@@ -1,0 +1,343 @@
+/***********************************************************************
+General/* Site body*/
+/**********************************************************************/
+body {
+    font-family: sans-serif;
+    background-image: url("images/ornate-metal-background-fdab4.jpg");
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 0;
+    padding: 0 5%;
+    background-image: url("images/textura-en-negro-1550.jpg");
+    border: 4px solid #585858;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+/********************************************************************
+Heading
+/*******************************************************************/
+.main-header {
+    float: right;
+    margin: 0 0 30px 0; /*Margin here keeps the header seperated from other content on the bottom but removes margins on top.*/
+    padding: 0 0 0 0; /*the syntax goes top, right, bottom, left. Padding seperates the text without actually removing the margin on the top of the page.*/
+    width: 100%; /*makes the header streach across the entire page.*/
+
+}
+
+.box {
+    background: #585858;
+    padding: 30px;
+    background-image: url("images/il_570xN.507389655_4ek7.jpg");
+    border: 5px #585858 ridge;
+}
+
+
+
+.links {
+    background-image: url("images/3313474689_bb4d812615 (1).jpg");
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+.main-header {
+     background-image: url("images/3313474689_bb4d812615.jpg");
+}
+
+h1 {
+    font-family: 'Calligraffitti', sans-serif;
+    color: #fff;
+    margin: 20px 0;
+    font-size: 2.5em;
+    font-weight : bold;
+    line-height: 0.8em;
+    border: 3px solid #fff;
+    border-radius: 20%;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/*h2 {
+    color: #fff;
+    font-size: 2em;
+    margin: -5px 0 0;
+    font-weight: normal;
+    border: 3px solid #fff;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #000;
+}
+*/
+h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    display: block;
+    border: 3px solid #fff;
+    border-radius: 20%;
+    padding: 5px 5px;
+    margin-top: 20px;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: 40px;
+    background-color: #000;
+}
+
+h4 {
+    font-size: 1.75em;
+    margin: 0 0 1em 0;
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.75em;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    display: block;
+    border: 3px solid #fff;
+    border-radius: 20%;
+    margin-right: 35%;
+    margin-left: 35%;
+    background-color: #000;
+}
+
+/********************************************************************
+Navigation
+/*******************************************************************/
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: auto 0 0;
+    border-radius: 25%;
+    border: 4px dotted #585858;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+.box {
+    font-size: 1.5em;
+}
+
+/********************************************************************
+Footer
+/*******************************************************************/
+footer {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top : 50px;
+    color: #ffffff;
+    border-top: 1px solid #585858;
+    clear: both;
+}
+
+#social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px;
+    z-index: -2;
+}
+
+footer {
+    background-image: url("images/3313474689_bb4d812615 (1).jpg");
+    color: #000;
+    border: 10px ridge #585858;
+}
+
+/********************************************************************
+Page portfolio
+/*******************************************************************/
+#gallery {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    color: #fff;
+    padding: 5px 5px;
+    text-align: justify;
+    background-image: url("images/redpattern.jpg");
+    border: 5px ridge #000;
+    margin-bottom: 50px;
+}
+
+.homeimage {
+    display: block;
+    border-radius: 25%;
+    border: 5px ridge #585858;
+    float: left;
+    margin: 10px;
+}
+
+
+/********************************************************************
+Page Information
+/*******************************************************************/
+
+/*p {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}*/
+
+.sections {
+    border:5px ridge #fff;
+    font-size: 1.2em;
+    float: left;
+    min-height: 450px;
+    color: #fff;
+    width: 45%;
+    margin: 10px;
+    text-align: justify;
+    padding: 20px 20px;
+    background-image: url("images/darklines.jpeg");
+}
+
+.hobbies {
+    border:5px ridge #fff;
+    font-size: 1.2em;
+    float: right;
+    min-height: 450px;
+    color: #fff;
+    width: 45%;
+    margin: 10px;
+    text-align: justify;
+    padding: 20px 20px;
+    background-image: url("images/darklines.jpeg");
+}
+
+.travel {
+    color: #fff;
+    font-size: 1.2em;
+    max-width: 100%;
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 0 5%;
+    background-image: url("images/darklines.jpeg");
+    border:5px ridge #fff;
+    display: inline-block;
+}
+
+.travel p {
+    padding-bottom: 20px;
+}
+
+/********************************************************************
+Page Images
+/*******************************************************************/
+
+
+
+/********************************************************************
+Page Contact
+/*******************************************************************/
+
+.contactcontainer {
+    margin-right: 100px;
+}
+
+.contact {
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px ridge #fff;
+    display: block;
+    float: right;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.contactinfo {
+    border: 5px ridge #484848;
+    font-size: 2em;
+    float: right;
+    height: 465px;
+    width: 45%;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 20px 20px;
+    background-image: url("images/Grey-background.jpg");
+}
+
+/*******************************************************************
+Color
+/******************************************************************/
+
+body {
+
+    color: #000000;
+    background-image: url("images/ornate-metal-background-fdab4.jpg");
+}
+
+.main-header {
+    background: #e0e0e0;
+    border-color: #000000;
+    background-image: url("images/ogassian-1.jpg");
+}
+
+nav {
+    background: #a8a8a8;
+    color: #fff;
+}
+
+h1, h2 {
+    color: #f0f0f0;
+}
+
+a {
+    color: #ffffff;
+}
+
+nav a, nav a :visited {
+    color: #ffffff;
+}
+
+nav a.selected, nav a :hover {
+    color: #505050;
+}
+
+
+
+
+
+
+
+
+
+
+
